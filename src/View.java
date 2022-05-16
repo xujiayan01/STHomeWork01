@@ -13,15 +13,15 @@ public class View {
         cc = new StudentManager();
     }
 
+
     public static View getInstance() {
         return view;
     }
 
     /**
-     * 系统初始化,让系统运行前就有一部分数据,方便测试用.
+     * 系统初始化,让系统运行前就有一部分数据.
      */
     public void APP() {
-
     }
 
     /**
